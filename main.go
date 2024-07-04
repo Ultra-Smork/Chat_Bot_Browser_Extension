@@ -72,7 +72,7 @@ func get_response(prompt string) (Response, error) {
 		return Response{}, err
 	}
 
-	req.Header.Add("x-rapidapi-key", "4454181f24mshfedd4d0e0d621b5p10a385jsn8d05d36ad4b9")
+	req.Header.Add("x-rapidapi-key", "YOUR API KEY")
 	req.Header.Add("x-rapidapi-host", "chatgpt-42.p.rapidapi.com")
 	req.Header.Add("Content-Type", "application/json")
 
