@@ -9,7 +9,7 @@ import (
 	"github.com/jackc/pgx/v5"
 )
 
-const connstring = "postgres://postgres:12345@localhost:5432/postgres"
+const connstring = "postgres://Username:password@localhost:port/DBNAME"
 
 func Create() error {
 	conn, err := pgx.Connect(context.Background(), connstring)
